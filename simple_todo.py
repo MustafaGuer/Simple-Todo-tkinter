@@ -11,7 +11,7 @@ from todo import Todo
 class MyApp():
     todos = []
 
-    file_path = f"{os.getcwd()}\\tkinter\\simple_todo\\todos.json"
+    file_path = f"{os.getcwd()}\\todos.json"
 
     def __init__(self):
         self.load_todos()
