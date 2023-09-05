@@ -18,7 +18,7 @@ class MyApp():
 
         self.app = tk.Tk()
         self.app.title(f"{os.getlogin()}'s Todos")
-        self.app.geometry("500x500+800+400")
+        self.app.geometry("500x350+800+400")
         self.app.resizable(width=False, height=False)
         self.app.grid_columnconfigure(1, weight=1)
         self.app.configure(background='#b19f00')
